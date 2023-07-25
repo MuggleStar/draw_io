@@ -1,9 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2023-07-25T06:49:12.855Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="NFlxZwEhans7nbkojL0A" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-25T07:19:32.519Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Qq1EJsZLwBm-aAQua4hr" version="21.3.7" type="github">
   <diagram name="第 1 页" id="WebCkufQsr-PPfxd4ha9">
-    <mxGraphModel dx="4148" dy="2248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1270" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7-bEAcDkT0EXlVhwydNP-1" value="手机app" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="90" width="330" height="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="7-bEAcDkT0EXlVhwydNP-7" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7-bEAcDkT0EXlVhwydNP-1">
+          <mxGeometry x="70" y="185" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-bEAcDkT0EXlVhwydNP-3" value="app后端服务（php）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="90" width="370" height="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="7-bEAcDkT0EXlVhwydNP-8" value="1、不需要登录的接口&lt;br&gt;2、需要登录的接口&lt;br&gt;（不同处理。。。）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="7-bEAcDkT0EXlVhwydNP-3">
+          <mxGeometry x="100" y="150" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7-bEAcDkT0EXlVhwydNP-12" value="请求参数加上java接口的验证参数&lt;br&gt;inner_sign：MD5加密字符串&lt;br&gt;inner_request_id：uuid，每个请求单独一个&lt;br&gt;inner_app_id：对接系统id&lt;br&gt;inner_user_id：用户id（php系统的id）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="7-bEAcDkT0EXlVhwydNP-3">
+          <mxGeometry x="20" y="360" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7-bEAcDkT0EXlVhwydNP-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="7-bEAcDkT0EXlVhwydNP-3" source="7-bEAcDkT0EXlVhwydNP-8" target="7-bEAcDkT0EXlVhwydNP-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="270" as="sourcePoint" />
+            <mxPoint x="240" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-bEAcDkT0EXlVhwydNP-16" value="获取用户信息&lt;br&gt;用户名，电话，头像" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7-bEAcDkT0EXlVhwydNP-3">
+          <mxGeometry x="125" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7-bEAcDkT0EXlVhwydNP-4" value="巢粉后端服务（java）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="90" width="350" height="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="7-bEAcDkT0EXlVhwydNP-14" value="1、内部接口参数验证&lt;br&gt;2、有inner_user_id，判断用户在巢粉系统是否有对应用户，没有则创建" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="7-bEAcDkT0EXlVhwydNP-4">
+          <mxGeometry x="10" y="500" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7-bEAcDkT0EXlVhwydNP-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7-bEAcDkT0EXlVhwydNP-7" target="7-bEAcDkT0EXlVhwydNP-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="395" as="sourcePoint" />
+            <mxPoint x="550" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-bEAcDkT0EXlVhwydNP-11" value="测评业务参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7-bEAcDkT0EXlVhwydNP-9">
+          <mxGeometry x="0.0564" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-bEAcDkT0EXlVhwydNP-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7-bEAcDkT0EXlVhwydNP-12" target="7-bEAcDkT0EXlVhwydNP-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-bEAcDkT0EXlVhwydNP-18" value="业务参数+内部验证参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7-bEAcDkT0EXlVhwydNP-15">
+          <mxGeometry x="-0.1282" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-bEAcDkT0EXlVhwydNP-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7-bEAcDkT0EXlVhwydNP-14" target="7-bEAcDkT0EXlVhwydNP-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-bEAcDkT0EXlVhwydNP-21" value="没有对应用户，获取用户信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7-bEAcDkT0EXlVhwydNP-17">
+          <mxGeometry x="-0.8517" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-bEAcDkT0EXlVhwydNP-22" value="内部验证参数+用户id（php系统的id）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7-bEAcDkT0EXlVhwydNP-17">
+          <mxGeometry x="0.0621" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
