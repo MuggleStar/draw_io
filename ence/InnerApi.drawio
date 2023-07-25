@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-07-25T07:26:10.222Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ut5fua-OdR_qnQzO80D7" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-25T07:27:16.119Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="_NH7Tlrt9c70V0EQ36iE" version="21.3.7" type="github">
   <diagram name="第 1 页" id="WebCkufQsr-PPfxd4ha9">
-    <mxGraphModel dx="1052" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1534" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7-bEAcDkT0EXlVhwydNP-1" value="手机app" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="90" width="330" height="1720" as="geometry" />
+          <mxGeometry x="160" y="90" width="330" height="1180" as="geometry" />
         </mxCell>
         <mxCell id="7-bEAcDkT0EXlVhwydNP-7" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7-bEAcDkT0EXlVhwydNP-1">
           <mxGeometry x="70" y="185" width="50" height="30" as="geometry" />
@@ -14,12 +14,12 @@
           <mxGeometry x="90" y="965" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7-bEAcDkT0EXlVhwydNP-3" value="app后端服务（php）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="90" width="370" height="1720" as="geometry" />
+          <mxGeometry x="490" y="90" width="370" height="1180" as="geometry" />
         </mxCell>
         <mxCell id="7-bEAcDkT0EXlVhwydNP-8" value="1、不需要登录的接口&lt;br&gt;2、需要登录的接口&lt;br&gt;（不同处理。。。）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="7-bEAcDkT0EXlVhwydNP-3">
           <mxGeometry x="100" y="150" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="7-bEAcDkT0EXlVhwydNP-12" value="请求参数加上java接口的验证参数&lt;br&gt;inner_sign：MD5加密字符串&lt;br&gt;inner_request_id：uuid，每个请求单独一个&lt;br&gt;inner_app_id：对接系统id&lt;br&gt;inner_user_id：用户id（php系统的id）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="7-bEAcDkT0EXlVhwydNP-3">
+        <mxCell id="7-bEAcDkT0EXlVhwydNP-12" value="请求参数加上java接口的验证参数&lt;br&gt;inner_sign：MD5加密字符串&lt;br&gt;inner_request_id：uuid，每个请求单独一个&lt;br&gt;inner_app_id：对接系统id（java提供）&lt;br&gt;inner_user_id：用户id（php系统的id）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="7-bEAcDkT0EXlVhwydNP-3">
           <mxGeometry x="20" y="360" width="330" height="100" as="geometry" />
         </mxCell>
         <mxCell id="7-bEAcDkT0EXlVhwydNP-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="7-bEAcDkT0EXlVhwydNP-3" source="7-bEAcDkT0EXlVhwydNP-8" target="7-bEAcDkT0EXlVhwydNP-12">
@@ -35,7 +35,7 @@
           <mxGeometry x="125" y="950" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7-bEAcDkT0EXlVhwydNP-4" value="巢粉后端服务（java）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="860" y="90" width="350" height="1720" as="geometry" />
+          <mxGeometry x="860" y="90" width="350" height="1180" as="geometry" />
         </mxCell>
         <mxCell id="7-bEAcDkT0EXlVhwydNP-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="7-bEAcDkT0EXlVhwydNP-4" source="7-bEAcDkT0EXlVhwydNP-14" target="7-bEAcDkT0EXlVhwydNP-33">
           <mxGeometry relative="1" as="geometry" />
