@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.7.12">
   <diagram id="aS9pjdUC0Do7hMSleVWt" name="第 1 页">
-    <mxGraphModel dx="2714" dy="1426" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2262" dy="1188" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -672,6 +672,107 @@
         </mxCell>
         <mxCell id="HyDP0fXbinYU09aLnzdq-203" value="正式对象存储" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1315" y="144" width="120" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-204" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HyDP0fXbinYU09aLnzdq-206" target="HyDP0fXbinYU09aLnzdq-208">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1764.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-205" value="数据已在标注库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HyDP0fXbinYU09aLnzdq-204">
+          <mxGeometry x="0.0491" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-206" value="标注库审核通过" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1734" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-207" value="新增标注库该条数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="504" y="1636" width="192" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-208" value="更新标注库该条数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="504" y="1742.5" width="192" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-209" value="不做操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="504" y="1823" width="192" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-210" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HyDP0fXbinYU09aLnzdq-206" target="HyDP0fXbinYU09aLnzdq-207">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="473" y="1701" as="sourcePoint" />
+            <mxPoint x="523" y="1651" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="1720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-211" value="数据不在标注库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HyDP0fXbinYU09aLnzdq-210">
+          <mxGeometry x="0.3479" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-212" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HyDP0fXbinYU09aLnzdq-206" target="HyDP0fXbinYU09aLnzdq-209">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="473" y="1701" as="sourcePoint" />
+            <mxPoint x="523" y="1651" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="1802" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-213" value="数据在标注库中删除" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HyDP0fXbinYU09aLnzdq-212">
+          <mxGeometry x="0.3266" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-214" value="更新或新增对象存储证书库文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="833" y="1678" width="192" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-215" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1151" y="1740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-216" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HyDP0fXbinYU09aLnzdq-207" target="HyDP0fXbinYU09aLnzdq-214">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="647" y="1649" as="sourcePoint" />
+            <mxPoint x="697" y="1599" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-217" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HyDP0fXbinYU09aLnzdq-208" target="HyDP0fXbinYU09aLnzdq-214">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="706" y="1680" as="sourcePoint" />
+            <mxPoint x="843" y="1723" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-218" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.019;entryY=0.564;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="HyDP0fXbinYU09aLnzdq-214" target="HyDP0fXbinYU09aLnzdq-215">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="706" y="1774" as="sourcePoint" />
+            <mxPoint x="843" y="1723" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-219" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.009;entryY=0.571;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="HyDP0fXbinYU09aLnzdq-209" target="HyDP0fXbinYU09aLnzdq-215">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1035" y="1723" as="sourcePoint" />
+            <mxPoint x="1163" y="1784" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-239" value="正式库删除文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="188" y="1919" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-240" value="逻辑删除文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="412" y="1927.5" width="192" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-241" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.002;exitY=0.529;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HyDP0fXbinYU09aLnzdq-239" target="HyDP0fXbinYU09aLnzdq-240">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="578" y="1771" as="sourcePoint" />
+            <mxPoint x="628" y="1721" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-242" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="746" y="1919" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-243" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HyDP0fXbinYU09aLnzdq-240" target="HyDP0fXbinYU09aLnzdq-242">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="449" y="1845" as="sourcePoint" />
+            <mxPoint x="499" y="1795" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
