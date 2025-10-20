@@ -1,0 +1,789 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7">
+  <diagram id="aS9pjdUC0Do7hMSleVWt" name="第 1 页">
+    <mxGraphModel dx="1426" dy="791" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HyDP0fXbinYU09aLnzdq-5" value="原始库-数据表" style="shape=table;startSize=23;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="202" y="355" width="348.72952586206907" height="181.33243534482767" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-5" vertex="1">
+          <mxGeometry y="23" width="348.72952586206907" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-21" value="一级分类" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-6" vertex="1">
+          <mxGeometry width="81" height="37" as="geometry">
+            <mxRectangle width="81" height="37" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-7" value="二级分类" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-6" vertex="1">
+          <mxGeometry x="81" width="75" height="37" as="geometry">
+            <mxRectangle width="75" height="37" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-8" value="三级分类" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-6" vertex="1">
+          <mxGeometry x="156" width="97" height="37" as="geometry">
+            <mxRectangle width="97" height="37" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-9" value="文件名称" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-6" vertex="1">
+          <mxGeometry x="253" width="96" height="37" as="geometry">
+            <mxRectangle width="96" height="37" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-5" vertex="1">
+          <mxGeometry y="60" width="348.72952586206907" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-22" value="芯片" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-10" vertex="1">
+          <mxGeometry width="81" height="34" as="geometry">
+            <mxRectangle width="81" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-11" value="电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-10" vertex="1">
+          <mxGeometry x="81" width="75" height="34" as="geometry">
+            <mxRectangle width="75" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-12" value="贴片电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-10" vertex="1">
+          <mxGeometry x="156" width="97" height="34" as="geometry">
+            <mxRectangle width="97" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-13" value="文件1.txt" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-10" vertex="1">
+          <mxGeometry x="253" width="96" height="34" as="geometry">
+            <mxRectangle width="96" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-14" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-5" vertex="1">
+          <mxGeometry y="94" width="348.72952586206907" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-23" value="芯片" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-14" vertex="1">
+          <mxGeometry width="81" height="31" as="geometry">
+            <mxRectangle width="81" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-15" value="电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-14" vertex="1">
+          <mxGeometry x="81" width="75" height="31" as="geometry">
+            <mxRectangle width="75" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-16" value="贴片电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-14" vertex="1">
+          <mxGeometry x="156" width="97" height="31" as="geometry">
+            <mxRectangle width="97" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-17" value="文件2.txt" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-14" vertex="1">
+          <mxGeometry x="253" width="96" height="31" as="geometry">
+            <mxRectangle width="96" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-30" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-5" vertex="1">
+          <mxGeometry y="125" width="348.72952586206907" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-31" value="芯片" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-30" vertex="1">
+          <mxGeometry width="81" height="28" as="geometry">
+            <mxRectangle width="81" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-32" value="电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-30" vertex="1">
+          <mxGeometry x="81" width="75" height="28" as="geometry">
+            <mxRectangle width="75" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-33" value="贴片电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-30" vertex="1">
+          <mxGeometry x="156" width="97" height="28" as="geometry">
+            <mxRectangle width="97" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-34" value="文件3.txt" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-30" vertex="1">
+          <mxGeometry x="253" width="96" height="28" as="geometry">
+            <mxRectangle width="96" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-35" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-5" vertex="1">
+          <mxGeometry y="153" width="348.72952586206907" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-36" value="芯片" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-35" vertex="1">
+          <mxGeometry width="81" height="28" as="geometry">
+            <mxRectangle width="81" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-37" value="电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-35" vertex="1">
+          <mxGeometry x="81" width="75" height="28" as="geometry">
+            <mxRectangle width="75" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-38" value="压敏电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-35" vertex="1">
+          <mxGeometry x="156" width="97" height="28" as="geometry">
+            <mxRectangle width="97" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-39" value="文41.txt" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-35" vertex="1">
+          <mxGeometry x="253" width="96" height="28" as="geometry">
+            <mxRectangle width="96" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-45" value="标注库-数据表" style="shape=table;startSize=23;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="665" y="355" width="444.72952586206907" height="181.33243534482767" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-46" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-45" vertex="1">
+          <mxGeometry y="23" width="444.72952586206907" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-47" value="一级分类" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-46" vertex="1">
+          <mxGeometry width="81" height="37" as="geometry">
+            <mxRectangle width="81" height="37" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-48" value="二级分类" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-46" vertex="1">
+          <mxGeometry x="81" width="75" height="37" as="geometry">
+            <mxRectangle width="75" height="37" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-49" value="三级分类" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-46" vertex="1">
+          <mxGeometry x="156" width="97" height="37" as="geometry">
+            <mxRectangle width="97" height="37" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-50" value="文件名称" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-46" vertex="1">
+          <mxGeometry x="253" width="96" height="37" as="geometry">
+            <mxRectangle width="96" height="37" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-71" value="三级分类id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-46" vertex="1">
+          <mxGeometry x="349" width="96" height="37" as="geometry">
+            <mxRectangle width="96" height="37" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-51" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-45" vertex="1">
+          <mxGeometry y="60" width="444.72952586206907" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-52" value="芯片" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-51" vertex="1">
+          <mxGeometry width="81" height="34" as="geometry">
+            <mxRectangle width="81" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-53" value="电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-51" vertex="1">
+          <mxGeometry x="81" width="75" height="34" as="geometry">
+            <mxRectangle width="75" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-54" value="贴片电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-51" vertex="1">
+          <mxGeometry x="156" width="97" height="34" as="geometry">
+            <mxRectangle width="97" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-55" value="文件1.txt" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-51" vertex="1">
+          <mxGeometry x="253" width="96" height="34" as="geometry">
+            <mxRectangle width="96" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-72" value="1003" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-51" vertex="1">
+          <mxGeometry x="349" width="96" height="34" as="geometry">
+            <mxRectangle width="96" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-56" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-45" vertex="1">
+          <mxGeometry y="94" width="444.72952586206907" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-57" value="芯片" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-56" vertex="1">
+          <mxGeometry width="81" height="31" as="geometry">
+            <mxRectangle width="81" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-58" value="电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-56" vertex="1">
+          <mxGeometry x="81" width="75" height="31" as="geometry">
+            <mxRectangle width="75" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-59" value="贴片电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-56" vertex="1">
+          <mxGeometry x="156" width="97" height="31" as="geometry">
+            <mxRectangle width="97" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-60" value="文件2.txt" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-56" vertex="1">
+          <mxGeometry x="253" width="96" height="31" as="geometry">
+            <mxRectangle width="96" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-73" value="1003" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-56" vertex="1">
+          <mxGeometry x="349" width="96" height="31" as="geometry">
+            <mxRectangle width="96" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-61" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-45" vertex="1">
+          <mxGeometry y="125" width="444.72952586206907" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-62" value="芯片" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-61" vertex="1">
+          <mxGeometry width="81" height="28" as="geometry">
+            <mxRectangle width="81" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-63" value="电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-61" vertex="1">
+          <mxGeometry x="81" width="75" height="28" as="geometry">
+            <mxRectangle width="75" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-64" value="贴片电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-61" vertex="1">
+          <mxGeometry x="156" width="97" height="28" as="geometry">
+            <mxRectangle width="97" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-65" value="文件3.txt" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-61" vertex="1">
+          <mxGeometry x="253" width="96" height="28" as="geometry">
+            <mxRectangle width="96" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-74" value="1003" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-61" vertex="1">
+          <mxGeometry x="349" width="96" height="28" as="geometry">
+            <mxRectangle width="96" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-66" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-45" vertex="1">
+          <mxGeometry y="153" width="444.72952586206907" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-67" value="芯片" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-66" vertex="1">
+          <mxGeometry width="81" height="28" as="geometry">
+            <mxRectangle width="81" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-68" value="电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-66" vertex="1">
+          <mxGeometry x="81" width="75" height="28" as="geometry">
+            <mxRectangle width="75" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-69" value="压敏电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-66" vertex="1">
+          <mxGeometry x="156" width="97" height="28" as="geometry">
+            <mxRectangle width="97" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-70" value="文41.txt" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-66" vertex="1">
+          <mxGeometry x="253" width="96" height="28" as="geometry">
+            <mxRectangle width="96" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-75" value="1004" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-66" vertex="1">
+          <mxGeometry x="349" width="96" height="28" as="geometry">
+            <mxRectangle width="96" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-76" value="正式库-数据表" style="shape=table;startSize=23;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="1215" y="355" width="348.72952586206907" height="181.33243534482767" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-77" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-76" vertex="1">
+          <mxGeometry y="23" width="348.72952586206907" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-78" value="一级分类" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-77" vertex="1">
+          <mxGeometry width="81" height="37" as="geometry">
+            <mxRectangle width="81" height="37" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-79" value="二级分类" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-77" vertex="1">
+          <mxGeometry x="81" width="75" height="37" as="geometry">
+            <mxRectangle width="75" height="37" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-80" value="三级分类" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-77" vertex="1">
+          <mxGeometry x="156" width="97" height="37" as="geometry">
+            <mxRectangle width="97" height="37" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-81" value="文件名称" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-77" vertex="1">
+          <mxGeometry x="253" width="96" height="37" as="geometry">
+            <mxRectangle width="96" height="37" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-83" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-76" vertex="1">
+          <mxGeometry y="60" width="348.72952586206907" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-84" value="芯片" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-83" vertex="1">
+          <mxGeometry width="81" height="34" as="geometry">
+            <mxRectangle width="81" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-85" value="电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-83" vertex="1">
+          <mxGeometry x="81" width="75" height="34" as="geometry">
+            <mxRectangle width="75" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-86" value="贴片电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-83" vertex="1">
+          <mxGeometry x="156" width="97" height="34" as="geometry">
+            <mxRectangle width="97" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-87" value="文件1.txt" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-83" vertex="1">
+          <mxGeometry x="253" width="96" height="34" as="geometry">
+            <mxRectangle width="96" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-89" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-76" vertex="1">
+          <mxGeometry y="94" width="348.72952586206907" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-90" value="芯片" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-89" vertex="1">
+          <mxGeometry width="81" height="31" as="geometry">
+            <mxRectangle width="81" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-91" value="电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-89" vertex="1">
+          <mxGeometry x="81" width="75" height="31" as="geometry">
+            <mxRectangle width="75" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-92" value="贴片电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-89" vertex="1">
+          <mxGeometry x="156" width="97" height="31" as="geometry">
+            <mxRectangle width="97" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-93" value="文件2.txt" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-89" vertex="1">
+          <mxGeometry x="253" width="96" height="31" as="geometry">
+            <mxRectangle width="96" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-95" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-76" vertex="1">
+          <mxGeometry y="125" width="348.72952586206907" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-96" value="芯片" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-95" vertex="1">
+          <mxGeometry width="81" height="28" as="geometry">
+            <mxRectangle width="81" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-97" value="电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-95" vertex="1">
+          <mxGeometry x="81" width="75" height="28" as="geometry">
+            <mxRectangle width="75" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-98" value="贴片电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-95" vertex="1">
+          <mxGeometry x="156" width="97" height="28" as="geometry">
+            <mxRectangle width="97" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-99" value="文件3.txt" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-95" vertex="1">
+          <mxGeometry x="253" width="96" height="28" as="geometry">
+            <mxRectangle width="96" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-101" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-76" vertex="1">
+          <mxGeometry y="153" width="348.72952586206907" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-102" value="芯片" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-101" vertex="1">
+          <mxGeometry width="81" height="28" as="geometry">
+            <mxRectangle width="81" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-103" value="电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-101" vertex="1">
+          <mxGeometry x="81" width="75" height="28" as="geometry">
+            <mxRectangle width="75" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-104" value="压敏电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-101" vertex="1">
+          <mxGeometry x="156" width="97" height="28" as="geometry">
+            <mxRectangle width="97" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-105" value="文41.txt" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-101" vertex="1">
+          <mxGeometry x="253" width="96" height="28" as="geometry">
+            <mxRectangle width="96" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-120" value="标注库-分类表" style="shape=table;startSize=23;container=1;collapsible=0;childLayout=tableLayout;strokeColor=default;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="665" y="588" width="282.72952586206907" height="181.33243534482767" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-121" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-120" vertex="1">
+          <mxGeometry y="23" width="282.72952586206907" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-122" value="分类id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-121" vertex="1">
+          <mxGeometry width="81" height="37" as="geometry">
+            <mxRectangle width="81" height="37" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-123" value="上级分类id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-121" vertex="1">
+          <mxGeometry x="81" width="99" height="37" as="geometry">
+            <mxRectangle width="99" height="37" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-124" value="分类名称" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-121" vertex="1">
+          <mxGeometry x="180" width="103" height="37" as="geometry">
+            <mxRectangle width="103" height="37" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-127" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-120" vertex="1">
+          <mxGeometry y="60" width="282.72952586206907" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-128" value="1001" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-127" vertex="1">
+          <mxGeometry width="81" height="34" as="geometry">
+            <mxRectangle width="81" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-129" value="0" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-127" vertex="1">
+          <mxGeometry x="81" width="99" height="34" as="geometry">
+            <mxRectangle width="99" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-130" value="芯片" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-127" vertex="1">
+          <mxGeometry x="180" width="103" height="34" as="geometry">
+            <mxRectangle width="103" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-133" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-120" vertex="1">
+          <mxGeometry y="94" width="282.72952586206907" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-134" value="1002" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-133" vertex="1">
+          <mxGeometry width="81" height="31" as="geometry">
+            <mxRectangle width="81" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-135" value="1001" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-133" vertex="1">
+          <mxGeometry x="81" width="99" height="31" as="geometry">
+            <mxRectangle width="99" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-136" value="电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-133" vertex="1">
+          <mxGeometry x="180" width="103" height="31" as="geometry">
+            <mxRectangle width="103" height="31" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-139" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-120" vertex="1">
+          <mxGeometry y="125" width="282.72952586206907" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-140" value="1003" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-139" vertex="1">
+          <mxGeometry width="81" height="28" as="geometry">
+            <mxRectangle width="81" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-141" value="1002" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-139" vertex="1">
+          <mxGeometry x="81" width="99" height="28" as="geometry">
+            <mxRectangle width="99" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-142" value="贴片电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-139" vertex="1">
+          <mxGeometry x="180" width="103" height="28" as="geometry">
+            <mxRectangle width="103" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-145" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-120" vertex="1">
+          <mxGeometry y="153" width="282.72952586206907" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-146" value="1004" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-145" vertex="1">
+          <mxGeometry width="81" height="28" as="geometry">
+            <mxRectangle width="81" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-147" value="1002" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-145" vertex="1">
+          <mxGeometry x="81" width="99" height="28" as="geometry">
+            <mxRectangle width="99" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-148" value="压敏电阻" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="HyDP0fXbinYU09aLnzdq-145" vertex="1">
+          <mxGeometry x="180" width="103" height="28" as="geometry">
+            <mxRectangle width="103" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-153" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HyDP0fXbinYU09aLnzdq-151" target="HyDP0fXbinYU09aLnzdq-156" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="412" y="1001.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-164" value="数据已在标注库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HyDP0fXbinYU09aLnzdq-153" vertex="1" connectable="0">
+          <mxGeometry x="0.0491" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-151" value="原始库审核通过" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="192" y="971" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-155" value="数据新增到标注库对应分类下，如果标注库没有这个分类，则新建分类，并新增到改分类下" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="516" y="873" width="192" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-156" value="更新标注库该条数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="516" y="979.5" width="192" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-157" value="不做操作" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="516" y="1060" width="192" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-161" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HyDP0fXbinYU09aLnzdq-151" target="HyDP0fXbinYU09aLnzdq-155" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="938" as="sourcePoint" />
+            <mxPoint x="535" y="888" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="342" y="957" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-163" value="数据不在标注库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HyDP0fXbinYU09aLnzdq-161" vertex="1" connectable="0">
+          <mxGeometry x="0.3479" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-162" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HyDP0fXbinYU09aLnzdq-151" target="HyDP0fXbinYU09aLnzdq-157" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="485" y="938" as="sourcePoint" />
+            <mxPoint x="535" y="888" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="342" y="1039" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-165" value="数据在标注库中删除" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HyDP0fXbinYU09aLnzdq-162" vertex="1" connectable="0">
+          <mxGeometry x="0.3266" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-166" value="更新或新增对象存储标注库文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="845" y="915" width="192" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-168" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1241" y="952" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-171" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="HyDP0fXbinYU09aLnzdq-155" target="HyDP0fXbinYU09aLnzdq-166" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="659" y="886" as="sourcePoint" />
+            <mxPoint x="709" y="836" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-172" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="HyDP0fXbinYU09aLnzdq-156" target="HyDP0fXbinYU09aLnzdq-166" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="718" y="917" as="sourcePoint" />
+            <mxPoint x="855" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-173" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.019;entryY=0.564;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="HyDP0fXbinYU09aLnzdq-166" target="HyDP0fXbinYU09aLnzdq-168" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="718" y="1011" as="sourcePoint" />
+            <mxPoint x="855" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-174" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.009;entryY=0.571;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="HyDP0fXbinYU09aLnzdq-157" target="HyDP0fXbinYU09aLnzdq-168" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1047" y="960" as="sourcePoint" />
+            <mxPoint x="1175" y="1021" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-175" value="标注库新增分类" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="192" y="1166" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-176" value="分类表新增分类数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="416" y="1174.5" width="192" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-177" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.002;exitY=0.529;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HyDP0fXbinYU09aLnzdq-175" target="HyDP0fXbinYU09aLnzdq-176" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="582" y="1018" as="sourcePoint" />
+            <mxPoint x="632" y="968" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-178" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="1166" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-179" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HyDP0fXbinYU09aLnzdq-176" target="HyDP0fXbinYU09aLnzdq-178" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="453" y="1092" as="sourcePoint" />
+            <mxPoint x="503" y="1042" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-180" value="标注库新增文件" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="192" y="1247" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-181" value="分类表新增分类数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="413" y="1255.5" width="192" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-182" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.002;exitY=0.529;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HyDP0fXbinYU09aLnzdq-180" target="HyDP0fXbinYU09aLnzdq-181" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="582" y="1099" as="sourcePoint" />
+            <mxPoint x="632" y="1049" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-183" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1025" y="1247" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-184" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HyDP0fXbinYU09aLnzdq-181" target="HyDP0fXbinYU09aLnzdq-185" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="453" y="1173" as="sourcePoint" />
+            <mxPoint x="503" y="1123" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-185" value="新增对象存储标注库文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="708" y="1255.5" width="192" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-186" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.999;exitY=0.561;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="HyDP0fXbinYU09aLnzdq-185" target="HyDP0fXbinYU09aLnzdq-183" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="902" y="1280" as="sourcePoint" />
+            <mxPoint x="718" y="1287" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-187" value="标注库修改分类&lt;br&gt;(修复分类的上级分类、修改分类名称、修改文件分类)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="192" y="1439" width="159" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-188" value="更新分类表数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="448" y="1462.5" width="192" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-189" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.002;exitY=0.529;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HyDP0fXbinYU09aLnzdq-187" target="HyDP0fXbinYU09aLnzdq-188" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="617" y="1306" as="sourcePoint" />
+            <mxPoint x="667" y="1256" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-190" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1358" y="1454" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-191" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HyDP0fXbinYU09aLnzdq-188" target="HyDP0fXbinYU09aLnzdq-244" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="488" y="1380" as="sourcePoint" />
+            <mxPoint x="538" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-192" value="更新对象存储文件目录结构" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1032" y="1462.5" width="192" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-193" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.999;exitY=0.561;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="HyDP0fXbinYU09aLnzdq-192" target="HyDP0fXbinYU09aLnzdq-190" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1226" y="1487" as="sourcePoint" />
+            <mxPoint x="1042" y="1494" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-194" value="标注库删除文件" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="192" y="1341" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-195" value="逻辑删除文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="416" y="1349.5" width="192" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-196" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.002;exitY=0.529;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HyDP0fXbinYU09aLnzdq-194" target="HyDP0fXbinYU09aLnzdq-195" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="582" y="1193" as="sourcePoint" />
+            <mxPoint x="632" y="1143" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-197" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="1341" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-198" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HyDP0fXbinYU09aLnzdq-195" target="HyDP0fXbinYU09aLnzdq-197" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="453" y="1267" as="sourcePoint" />
+            <mxPoint x="503" y="1217" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-199" value="原始库分类&lt;br&gt;&lt;br&gt;不维护分类，直接数据库 Group by&lt;br&gt;添加字段索引，没有性能问题" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="256" y="626" width="192" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-200" value="正式库分类&lt;br&gt;&lt;br&gt;不维护分类，直接数据库 Group by&lt;br&gt;添加字段索引，没有性能问题" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1283" y="620" width="192" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-201" value="原始库对象存储" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="333" y="157" width="120" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-202" value="标注库对象存储" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="803" y="149" width="120" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-203" value="正式对象存储" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1315" y="144" width="120" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-204" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="HyDP0fXbinYU09aLnzdq-206" target="HyDP0fXbinYU09aLnzdq-208" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1764.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-205" value="数据已在标注库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HyDP0fXbinYU09aLnzdq-204" vertex="1" connectable="0">
+          <mxGeometry x="0.0491" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-206" value="标注库审核通过" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="1734" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-207" value="新增标注库该条数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="504" y="1636" width="192" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-208" value="更新标注库该条数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="504" y="1742.5" width="192" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-209" value="不做操作" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="504" y="1823" width="192" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-210" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HyDP0fXbinYU09aLnzdq-206" target="HyDP0fXbinYU09aLnzdq-207" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="473" y="1701" as="sourcePoint" />
+            <mxPoint x="523" y="1651" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="1720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-211" value="数据不在标注库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HyDP0fXbinYU09aLnzdq-210" vertex="1" connectable="0">
+          <mxGeometry x="0.3479" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-212" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HyDP0fXbinYU09aLnzdq-206" target="HyDP0fXbinYU09aLnzdq-209" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="473" y="1701" as="sourcePoint" />
+            <mxPoint x="523" y="1651" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="1802" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-213" value="数据在标注库中删除" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HyDP0fXbinYU09aLnzdq-212" vertex="1" connectable="0">
+          <mxGeometry x="0.3266" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-214" value="更新或新增对象存储证书库文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="833" y="1678" width="192" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-215" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1151" y="1740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-216" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="HyDP0fXbinYU09aLnzdq-207" target="HyDP0fXbinYU09aLnzdq-214" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="647" y="1649" as="sourcePoint" />
+            <mxPoint x="697" y="1599" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-217" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="HyDP0fXbinYU09aLnzdq-208" target="HyDP0fXbinYU09aLnzdq-214" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="706" y="1680" as="sourcePoint" />
+            <mxPoint x="843" y="1723" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-218" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.019;entryY=0.564;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="HyDP0fXbinYU09aLnzdq-214" target="HyDP0fXbinYU09aLnzdq-215" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="706" y="1774" as="sourcePoint" />
+            <mxPoint x="843" y="1723" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-219" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.009;entryY=0.571;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="HyDP0fXbinYU09aLnzdq-209" target="HyDP0fXbinYU09aLnzdq-215" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1035" y="1723" as="sourcePoint" />
+            <mxPoint x="1163" y="1784" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-239" value="正式库删除文件" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="188" y="1919" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-240" value="逻辑删除文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="412" y="1927.5" width="192" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-241" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.002;exitY=0.529;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HyDP0fXbinYU09aLnzdq-239" target="HyDP0fXbinYU09aLnzdq-240" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="578" y="1771" as="sourcePoint" />
+            <mxPoint x="628" y="1721" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-242" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="746" y="1919" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-243" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HyDP0fXbinYU09aLnzdq-240" target="HyDP0fXbinYU09aLnzdq-242" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="449" y="1845" as="sourcePoint" />
+            <mxPoint x="499" y="1795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-244" value="更新标注库数据表-分类字段" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="759" y="1462.5" width="192" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="HyDP0fXbinYU09aLnzdq-245" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="HyDP0fXbinYU09aLnzdq-192" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="953" y="1483.58" as="sourcePoint" />
+            <mxPoint x="1026" y="1483" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
