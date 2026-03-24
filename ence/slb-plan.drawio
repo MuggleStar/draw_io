@@ -10,7 +10,7 @@
         <mxCell id="srVSKejguWuxEB_bUG17-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=41;fontSize=16;" value="192.168.100.1&lt;br&gt;（2核4G按时间付费）" vertex="1">
           <mxGeometry height="200" width="200" x="485" y="652" as="geometry" />
         </mxCell>
-        <mxCell id="srVSKejguWuxEB_bUG17-4" parent="srVSKejguWuxEB_bUG17-1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="简单Java服务1" vertex="1">
+        <mxCell id="srVSKejguWuxEB_bUG17-4" parent="srVSKejguWuxEB_bUG17-1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="简单Java服务1&lt;br&gt;（登录、文件上传、下载）" vertex="1">
           <mxGeometry height="60" width="120" x="35" y="114" as="geometry" />
         </mxCell>
         <mxCell id="srVSKejguWuxEB_bUG17-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fontSize=16;" value="192.168.100.3&lt;br&gt;（4核8G按时间付费）" vertex="1">
@@ -31,7 +31,7 @@
         <mxCell id="srVSKejguWuxEB_bUG17-7" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=43;fontSize=16;" value="192.168.100.1&lt;br&gt;（2核4G按时间付费）" vertex="1">
           <mxGeometry height="200" width="200" x="902" y="652" as="geometry" />
         </mxCell>
-        <mxCell id="srVSKejguWuxEB_bUG17-8" parent="srVSKejguWuxEB_bUG17-7" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="简单Java服务2" vertex="1">
+        <mxCell id="srVSKejguWuxEB_bUG17-8" parent="srVSKejguWuxEB_bUG17-7" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="简单Java服务2&lt;br&gt;（登录、文件上传、下载）" vertex="1">
           <mxGeometry height="60" width="120" x="40" y="114" as="geometry" />
         </mxCell>
         <mxCell id="srVSKejguWuxEB_bUG17-29" parent="srVSKejguWuxEB_bUG17-7" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="nginx" vertex="1">
