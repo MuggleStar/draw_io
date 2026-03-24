@@ -104,7 +104,7 @@
             <mxPoint x="1030" y="357" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="srVSKejguWuxEB_bUG17-27" connectable="0" parent="srVSKejguWuxEB_bUG17-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="文件上传与下载请求" vertex="1">
+        <mxCell id="srVSKejguWuxEB_bUG17-27" connectable="0" parent="srVSKejguWuxEB_bUG17-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=19;" value="文件上传与下载请求" vertex="1">
           <mxGeometry relative="1" x="-0.093" y="-3" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
