@@ -37,10 +37,10 @@
         <mxCell id="srVSKejguWuxEB_bUG17-29" parent="srVSKejguWuxEB_bUG17-7" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="nginx" vertex="1">
           <mxGeometry height="25" width="71" x="64.5" y="62" as="geometry" />
         </mxCell>
-        <mxCell id="srVSKejguWuxEB_bUG17-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="阿里云 CLB&amp;nbsp;" vertex="1">
+        <mxCell id="srVSKejguWuxEB_bUG17-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="阿里云 ALB&amp;nbsp;" vertex="1">
           <mxGeometry height="44" width="308" x="430" y="990" as="geometry" />
         </mxCell>
-        <mxCell id="srVSKejguWuxEB_bUG17-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="阿里云 CLB（外网）&amp;nbsp;" vertex="1">
+        <mxCell id="srVSKejguWuxEB_bUG17-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" value="阿里云 ALB（外网）&amp;nbsp;" vertex="1">
           <mxGeometry height="44" width="308" x="659.5" y="492" as="geometry" />
         </mxCell>
         <mxCell id="srVSKejguWuxEB_bUG17-14" edge="1" parent="1" source="srVSKejguWuxEB_bUG17-12" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" target="srVSKejguWuxEB_bUG17-13" value="">
