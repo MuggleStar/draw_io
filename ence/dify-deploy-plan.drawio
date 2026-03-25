@@ -1,23 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
   <diagram id="aS9pjdUC0Do7hMSleVWt" name="第 1 页">
-    <mxGraphModel dx="2765" dy="1474" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3615" dy="1928" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RsskncbEqKIQpMT9tODd-53" edge="1" parent="1" source="RsskncbEqKIQpMT9tODd-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="RsskncbEqKIQpMT9tODd-36">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="RsskncbEqKIQpMT9tODd-54" edge="1" parent="1" source="RsskncbEqKIQpMT9tODd-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="RsskncbEqKIQpMT9tODd-44">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="RsskncbEqKIQpMT9tODd-57" edge="1" parent="1" source="RsskncbEqKIQpMT9tODd-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="srVSKejguWuxEB_bUG17-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="RsskncbEqKIQpMT9tODd-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="520" width="918" x="1361" y="606" as="geometry" />
-        </mxCell>
-        <mxCell id="RsskncbEqKIQpMT9tODd-55" edge="1" parent="1" source="srVSKejguWuxEB_bUG17-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="RsskncbEqKIQpMT9tODd-50">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="RsskncbEqKIQpMT9tODd-73" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=48;fontSize=12;" value="worker+pdf 集群组" vertex="1">
+          <mxGeometry height="528" width="918" x="1066.5" y="1251" as="geometry" />
         </mxCell>
         <mxCell id="RsskncbEqKIQpMT9tODd-56" edge="1" parent="1" source="srVSKejguWuxEB_bUG17-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="srVSKejguWuxEB_bUG17-3">
           <mxGeometry relative="1" as="geometry" />
@@ -44,7 +32,7 @@
           <mxGeometry height="46" width="93" x="149" y="371" as="geometry" />
         </mxCell>
         <mxCell id="srVSKejguWuxEB_bUG17-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fontSize=12;" value="阿里云服务" vertex="1">
-          <mxGeometry height="394" width="425" x="2125" y="1209" as="geometry" />
+          <mxGeometry height="394" width="425" x="2678.5" y="1711" as="geometry" />
         </mxCell>
         <mxCell id="srVSKejguWuxEB_bUG17-5" parent="srVSKejguWuxEB_bUG17-3" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=12;" value="Redis 缓存" vertex="1">
           <mxGeometry height="121" width="120" x="256" y="80" as="geometry" />
@@ -73,6 +61,20 @@
         <mxCell id="srVSKejguWuxEB_bUG17-25" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" value="dify管理用户端" vertex="1">
           <mxGeometry height="80" width="120" x="2057" y="274" as="geometry" />
         </mxCell>
+        <mxCell id="RsskncbEqKIQpMT9tODd-77" edge="1" parent="1" source="RsskncbEqKIQpMT9tODd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="RsskncbEqKIQpMT9tODd-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RsskncbEqKIQpMT9tODd-78" connectable="0" parent="RsskncbEqKIQpMT9tODd-77" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="ALB虚拟IP调用" vertex="1">
+          <mxGeometry relative="1" x="0.0629" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RsskncbEqKIQpMT9tODd-81" edge="1" parent="1" source="RsskncbEqKIQpMT9tODd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="RsskncbEqKIQpMT9tODd-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RsskncbEqKIQpMT9tODd-84" edge="1" parent="1" source="RsskncbEqKIQpMT9tODd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="srVSKejguWuxEB_bUG17-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RsskncbEqKIQpMT9tODd-10" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=74;fontSize=12;" value="192.168.100.2&lt;br&gt;dify 相关服务&lt;br&gt;&lt;div&gt;4C8G&lt;/div&gt;" vertex="1">
           <mxGeometry height="442" width="376" x="1856" y="643" as="geometry" />
         </mxCell>
@@ -94,8 +96,14 @@
         <mxCell id="RsskncbEqKIQpMT9tODd-19" parent="RsskncbEqKIQpMT9tODd-10" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" value="run_python_code&lt;br&gt;mcp服务&lt;br&gt;（专门运行 Python 脚本）" vertex="1">
           <mxGeometry height="46" width="164" x="21.5" y="288" as="geometry" />
         </mxCell>
-        <mxCell id="RsskncbEqKIQpMT9tODd-20" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=74;fontSize=12;" value="192.168.100.3&lt;br&gt;dify 相关服务&lt;br&gt;&lt;div&gt;8C16G&lt;/div&gt;" vertex="1">
-          <mxGeometry height="442" width="376" x="1406" y="643" as="geometry" />
+        <mxCell id="RsskncbEqKIQpMT9tODd-82" edge="1" parent="1" source="RsskncbEqKIQpMT9tODd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="RsskncbEqKIQpMT9tODd-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RsskncbEqKIQpMT9tODd-85" edge="1" parent="1" source="RsskncbEqKIQpMT9tODd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="RsskncbEqKIQpMT9tODd-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RsskncbEqKIQpMT9tODd-20" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=74;fontSize=12;" value="192.168.100.3&lt;br&gt;worker&amp;amp;pdf 服务（默认）&lt;br&gt;&lt;div&gt;8C16G&lt;/div&gt;" vertex="1">
+          <mxGeometry height="442" width="376" x="1133.5" y="1309" as="geometry" />
         </mxCell>
         <mxCell id="RsskncbEqKIQpMT9tODd-22" parent="RsskncbEqKIQpMT9tODd-20" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" value="worker-1&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;api定时任务服务（定时任务，和api同一个镜像）&lt;/span&gt;" vertex="1">
           <mxGeometry height="46" width="155.5" x="19" y="100" as="geometry" />
@@ -119,13 +127,13 @@
           <mxGeometry height="46" width="155.5" x="19" y="363" as="geometry" />
         </mxCell>
         <mxCell id="RsskncbEqKIQpMT9tODd-36" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=74;fontSize=12;" value="192.168.100.4&lt;br&gt;&lt;div&gt;8C16G&lt;br&gt;硬盘资源1T&lt;/div&gt;" vertex="1">
-          <mxGeometry height="234" width="209" x="1715.5" y="1179" as="geometry" />
+          <mxGeometry height="234" width="209" x="2272" y="1874" as="geometry" />
         </mxCell>
         <mxCell id="RsskncbEqKIQpMT9tODd-43" parent="RsskncbEqKIQpMT9tODd-36" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=12;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;weaviate&lt;br&gt;向量数据库&lt;/span&gt;" vertex="1">
           <mxGeometry height="121" width="120" x="46" y="88" as="geometry" />
         </mxCell>
         <mxCell id="RsskncbEqKIQpMT9tODd-44" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=74;fontSize=12;" value="大模型厂商" vertex="1">
-          <mxGeometry height="341" width="288" x="1003" y="695.5" as="geometry" />
+          <mxGeometry height="341" width="288" x="770" y="692" as="geometry" />
         </mxCell>
         <mxCell id="RsskncbEqKIQpMT9tODd-46" parent="RsskncbEqKIQpMT9tODd-44" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" value="大模型API服务1&lt;br&gt;提供dify流程使用模型" vertex="1">
           <mxGeometry height="46" width="127" x="86" y="126" as="geometry" />
@@ -133,22 +141,47 @@
         <mxCell id="RsskncbEqKIQpMT9tODd-48" parent="RsskncbEqKIQpMT9tODd-44" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" value="大模型API服务2&lt;br&gt;提供pdf转md模型" vertex="1">
           <mxGeometry height="46" width="127" x="86" y="231" as="geometry" />
         </mxCell>
-        <mxCell id="RsskncbEqKIQpMT9tODd-49" edge="1" parent="1" source="RsskncbEqKIQpMT9tODd-10" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="RsskncbEqKIQpMT9tODd-20" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="2763" y="1393" as="sourcePoint" />
-            <mxPoint x="2712" y="1307" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RsskncbEqKIQpMT9tODd-51" connectable="0" parent="RsskncbEqKIQpMT9tODd-49" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="调用" vertex="1">
-          <mxGeometry relative="1" x="-0.0337" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="RsskncbEqKIQpMT9tODd-60" edge="1" parent="1" source="RsskncbEqKIQpMT9tODd-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="srVSKejguWuxEB_bUG17-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RsskncbEqKIQpMT9tODd-58" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" value="AI聊天用户端" vertex="1">
           <mxGeometry height="80" width="120" x="2542" y="277" as="geometry" />
+        </mxCell>
+        <mxCell id="RsskncbEqKIQpMT9tODd-63" edge="1" parent="1" source="RsskncbEqKIQpMT9tODd-10" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="srVSKejguWuxEB_bUG17-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2279" y="866" as="sourcePoint" />
+            <mxPoint x="2377" y="847" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RsskncbEqKIQpMT9tODd-64" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=74;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" value="192.168.100.3&lt;br&gt;worker&amp;amp;pdf 服务 （压力大时扩容）&lt;br&gt;&lt;div&gt;8C16G&lt;/div&gt;" vertex="1">
+          <mxGeometry height="442" width="376" x="1550.5" y="1313" as="geometry" />
+        </mxCell>
+        <mxCell id="RsskncbEqKIQpMT9tODd-65" parent="RsskncbEqKIQpMT9tODd-64" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" value="worker-1&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;api定时任务服务（定时任务，和api同一个镜像）&lt;/span&gt;" vertex="1">
+          <mxGeometry height="46" width="155.5" x="19" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RsskncbEqKIQpMT9tODd-66" parent="RsskncbEqKIQpMT9tODd-64" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" value="pdf-parese-1&lt;br&gt;pdf转md文件应用&lt;br&gt;（给后台批量任务）" vertex="1">
+          <mxGeometry height="59" width="127" x="220" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RsskncbEqKIQpMT9tODd-67" parent="RsskncbEqKIQpMT9tODd-64" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" value="pdf-parese-2&lt;br&gt;pdf转md文件应用&lt;br&gt;（给C端用户使用的agent）" vertex="1">
+          <mxGeometry height="65" width="148" x="209.5" y="211" as="geometry" />
+        </mxCell>
+        <mxCell id="RsskncbEqKIQpMT9tODd-68" parent="RsskncbEqKIQpMT9tODd-64" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" value="worker-2&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;api定时任务服务（定时任务，和api同一个镜像）&lt;/span&gt;" vertex="1">
+          <mxGeometry height="46" width="155.5" x="19" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="RsskncbEqKIQpMT9tODd-69" parent="RsskncbEqKIQpMT9tODd-64" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" value="worker-3&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;api定时任务服务（定时任务，和api同一个镜像）&lt;/span&gt;" vertex="1">
+          <mxGeometry height="46" width="155.5" x="19" y="231" as="geometry" />
+        </mxCell>
+        <mxCell id="RsskncbEqKIQpMT9tODd-70" parent="RsskncbEqKIQpMT9tODd-64" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" value="worker-4&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;api定时任务服务（定时任务，和api同一个镜像）&lt;/span&gt;" vertex="1">
+          <mxGeometry height="46" width="155.5" x="19" y="297" as="geometry" />
+        </mxCell>
+        <mxCell id="RsskncbEqKIQpMT9tODd-71" parent="RsskncbEqKIQpMT9tODd-64" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" value="worker-5&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;api定时任务服务（定时任务，和api同一个镜像）&lt;/span&gt;" vertex="1">
+          <mxGeometry height="46" width="155.5" x="19" y="363" as="geometry" />
+        </mxCell>
+        <mxCell id="RsskncbEqKIQpMT9tODd-79" edge="1" parent="1" source="RsskncbEqKIQpMT9tODd-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="RsskncbEqKIQpMT9tODd-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RsskncbEqKIQpMT9tODd-76" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" value="阿里云 ALB（内网）&amp;nbsp;" vertex="1">
+          <mxGeometry height="44" width="399" x="1326" y="1158" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
