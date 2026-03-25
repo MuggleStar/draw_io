@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
   <diagram id="aS9pjdUC0Do7hMSleVWt" name="第 1 页">
-    <mxGraphModel dx="2474" dy="1319" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2474" dy="1507" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -137,7 +137,7 @@
         <mxCell id="RsskncbEqKIQpMT9tODd-32" parent="RsskncbEqKIQpMT9tODd-20" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" value="worker-5&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;api定时任务服务（定时任务，和api同一个镜像）&lt;/span&gt;" vertex="1">
           <mxGeometry height="46" width="155.5" x="19" y="363" as="geometry" />
         </mxCell>
-        <mxCell id="RsskncbEqKIQpMT9tODd-36" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=74;fontSize=12;" value="192.168.100.4&lt;br&gt;&lt;div&gt;8C16G&lt;br&gt;硬盘资源 系统盘60G，数据盘500G&lt;/div&gt;" vertex="1">
+        <mxCell id="RsskncbEqKIQpMT9tODd-36" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=74;fontSize=12;" value="192.168.100.4&lt;br&gt;&lt;div&gt;8C16G&lt;br&gt;硬盘资源 系统盘80G，数据盘500G&lt;/div&gt;" vertex="1">
           <mxGeometry height="234" width="209" x="2127" y="1725" as="geometry" />
         </mxCell>
         <mxCell id="RsskncbEqKIQpMT9tODd-43" parent="RsskncbEqKIQpMT9tODd-36" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=12;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;weaviate&lt;br&gt;向量数据库&lt;/span&gt;" vertex="1">
