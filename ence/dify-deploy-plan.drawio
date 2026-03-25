@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
   <diagram id="aS9pjdUC0Do7hMSleVWt" name="第 1 页">
-    <mxGraphModel dx="3357" dy="1790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2765" dy="1474" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,7 +26,7 @@
           <mxGeometry height="46" width="93" x="120" y="353" as="geometry" />
         </mxCell>
         <mxCell id="srVSKejguWuxEB_bUG17-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fontSize=12;" value="阿里云服务" vertex="1">
-          <mxGeometry height="448" width="550" x="2708" y="653" as="geometry" />
+          <mxGeometry height="448" width="550" x="2273" y="659" as="geometry" />
         </mxCell>
         <mxCell id="srVSKejguWuxEB_bUG17-5" parent="srVSKejguWuxEB_bUG17-3" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=12;" value="Redis 缓存" vertex="1">
           <mxGeometry height="121" width="120" x="344" y="123" as="geometry" />
@@ -68,7 +68,7 @@
           <mxGeometry height="46" width="164" x="21.5" y="288" as="geometry" />
         </mxCell>
         <mxCell id="RsskncbEqKIQpMT9tODd-20" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=74;fontSize=12;" value="192.168.100.1&lt;br&gt;dify 相关服务&lt;br&gt;&lt;div&gt;4C16G&lt;/div&gt;" vertex="1">
-          <mxGeometry height="442" width="376" x="568" y="659" as="geometry" />
+          <mxGeometry height="442" width="376" x="515" y="662" as="geometry" />
         </mxCell>
         <mxCell id="RsskncbEqKIQpMT9tODd-22" parent="RsskncbEqKIQpMT9tODd-20" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" value="worker-1&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;api定时任务服务（定时任务，和api同一个镜像）&lt;/span&gt;" vertex="1">
           <mxGeometry height="46" width="155.5" x="19" y="100" as="geometry" />
@@ -91,17 +91,8 @@
         <mxCell id="RsskncbEqKIQpMT9tODd-32" parent="RsskncbEqKIQpMT9tODd-20" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" value="worker-5&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;api定时任务服务（定时任务，和api同一个镜像）&lt;/span&gt;" vertex="1">
           <mxGeometry height="46" width="155.5" x="19" y="363" as="geometry" />
         </mxCell>
-        <mxCell id="RsskncbEqKIQpMT9tODd-33" parent="RsskncbEqKIQpMT9tODd-20" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" value="worker-6&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;api定时任务服务（定时任务，和api同一个镜像）&lt;/span&gt;" vertex="1">
-          <mxGeometry height="46" width="155.5" x="202" y="231" as="geometry" />
-        </mxCell>
-        <mxCell id="RsskncbEqKIQpMT9tODd-34" parent="RsskncbEqKIQpMT9tODd-20" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" value="worker-7&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;api定时任务服务（定时任务，和api同一个镜像）&lt;/span&gt;" vertex="1">
-          <mxGeometry height="46" width="155.5" x="205.75" y="297" as="geometry" />
-        </mxCell>
-        <mxCell id="RsskncbEqKIQpMT9tODd-35" parent="RsskncbEqKIQpMT9tODd-20" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" value="worker-8&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;api定时任务服务（定时任务，和api同一个镜像）&lt;/span&gt;" vertex="1">
-          <mxGeometry height="46" width="155.5" x="205.75" y="363" as="geometry" />
-        </mxCell>
         <mxCell id="RsskncbEqKIQpMT9tODd-36" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=74;fontSize=12;" value="192.168.100.1&lt;br&gt;&lt;div&gt;4C8G&lt;br&gt;硬盘资源1T&lt;/div&gt;" vertex="1">
-          <mxGeometry height="442" width="376" x="1091" y="1288" as="geometry" />
+          <mxGeometry height="442" width="376" x="1205" y="1471" as="geometry" />
         </mxCell>
         <mxCell id="RsskncbEqKIQpMT9tODd-43" parent="RsskncbEqKIQpMT9tODd-36" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=12;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;weaviate&lt;br&gt;向量数据库&lt;/span&gt;" vertex="1">
           <mxGeometry height="121" width="120" x="120" y="160.5" as="geometry" />
