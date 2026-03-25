@@ -46,7 +46,7 @@
         <mxCell id="RsskncbEqKIQpMT9tODd-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=12;" value="pg&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;数据库&lt;/span&gt;" vertex="1">
           <mxGeometry height="121" width="120" x="2145" y="470" as="geometry" />
         </mxCell>
-        <mxCell id="RsskncbEqKIQpMT9tODd-10" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=74;fontSize=12;" value="192.168.100.1&lt;br&gt;部署 java 微服务（后续可优化成单体服务）&lt;div&gt;4C16G&lt;/div&gt;" vertex="1">
+        <mxCell id="RsskncbEqKIQpMT9tODd-10" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=74;fontSize=12;" value="192.168.100.1&lt;br&gt;dify 相关服务&lt;br&gt;&lt;div&gt;4C16G&lt;/div&gt;" vertex="1">
           <mxGeometry height="442" width="376" x="1077" y="353" as="geometry" />
         </mxCell>
         <mxCell id="RsskncbEqKIQpMT9tODd-11" parent="RsskncbEqKIQpMT9tODd-10" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" value="nginx" vertex="1">
