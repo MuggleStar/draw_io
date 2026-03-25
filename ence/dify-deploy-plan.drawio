@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
   <diagram id="aS9pjdUC0Do7hMSleVWt" name="第 1 页">
-    <mxGraphModel dx="2350" dy="1253" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1621" dy="864" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="srVSKejguWuxEB_bUG17-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=74;fontSize=12;" value="192.168.100.1&lt;br&gt;部署 java 微服务（后续可优化成单体服务）&lt;div&gt;4C8G&lt;/div&gt;" vertex="1">
-          <mxGeometry height="442" width="376" x="505" y="431" as="geometry" />
+          <mxGeometry height="442" width="376" x="506" y="353" as="geometry" />
         </mxCell>
         <mxCell id="RsskncbEqKIQpMT9tODd-3" parent="srVSKejguWuxEB_bUG17-1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" value="nginx" vertex="1">
           <mxGeometry height="46" width="93" x="62" y="102" as="geometry" />
@@ -26,7 +26,7 @@
           <mxGeometry height="46" width="93" x="120" y="353" as="geometry" />
         </mxCell>
         <mxCell id="srVSKejguWuxEB_bUG17-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;fontSize=12;" value="阿里云服务" vertex="1">
-          <mxGeometry height="448" width="550" x="2325" y="477" as="geometry" />
+          <mxGeometry height="448" width="550" x="2046" y="347" as="geometry" />
         </mxCell>
         <mxCell id="srVSKejguWuxEB_bUG17-5" parent="srVSKejguWuxEB_bUG17-3" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=12;" value="Redis 缓存" vertex="1">
           <mxGeometry height="121" width="120" x="344" y="123" as="geometry" />
@@ -41,10 +41,31 @@
           <mxGeometry height="80" width="120" x="1031" y="22" as="geometry" />
         </mxCell>
         <mxCell id="srVSKejguWuxEB_bUG17-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=12;" value="mysql 数据库" vertex="1">
-          <mxGeometry height="121" width="120" x="2424" y="766" as="geometry" />
+          <mxGeometry height="121" width="120" x="2145" y="636" as="geometry" />
         </mxCell>
         <mxCell id="RsskncbEqKIQpMT9tODd-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=12;" value="pg&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;数据库&lt;/span&gt;" vertex="1">
-          <mxGeometry height="121" width="120" x="2424" y="600" as="geometry" />
+          <mxGeometry height="121" width="120" x="2145" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="RsskncbEqKIQpMT9tODd-10" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=74;fontSize=12;" value="192.168.100.1&lt;br&gt;部署 java 微服务（后续可优化成单体服务）&lt;div&gt;4C8G&lt;/div&gt;" vertex="1">
+          <mxGeometry height="442" width="376" x="1077" y="353" as="geometry" />
+        </mxCell>
+        <mxCell id="RsskncbEqKIQpMT9tODd-11" parent="RsskncbEqKIQpMT9tODd-10" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" value="nginx" vertex="1">
+          <mxGeometry height="46" width="93" x="62" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="RsskncbEqKIQpMT9tODd-12" parent="RsskncbEqKIQpMT9tODd-10" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" value="web-cms&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;aicms.elecnest.cn前端&lt;/span&gt;&lt;br&gt;（放nginx下）" vertex="1">
+          <mxGeometry height="46" width="133" x="210" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="RsskncbEqKIQpMT9tODd-13" parent="RsskncbEqKIQpMT9tODd-10" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" value="api&lt;br&gt;dify-后端服务" vertex="1">
+          <mxGeometry height="46" width="93" x="57" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="RsskncbEqKIQpMT9tODd-17" parent="RsskncbEqKIQpMT9tODd-10" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;sandbox&lt;/span&gt;&lt;div&gt;python容器隔离服务&lt;/div&gt;" vertex="1">
+          <mxGeometry height="46" width="125" x="214" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="RsskncbEqKIQpMT9tODd-18" parent="RsskncbEqKIQpMT9tODd-10" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;ssrf_proxy&lt;/span&gt;&lt;br&gt;&lt;div&gt;sandbox网络服务&lt;/div&gt;" vertex="1">
+          <mxGeometry height="46" width="125" x="214" y="201" as="geometry" />
+        </mxCell>
+        <mxCell id="RsskncbEqKIQpMT9tODd-19" parent="RsskncbEqKIQpMT9tODd-10" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" value="run_python_code&lt;br&gt;mcp服务&lt;br&gt;（专门运行 Python 脚本）" vertex="1">
+          <mxGeometry height="46" width="164" x="21.5" y="288" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
