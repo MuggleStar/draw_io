@@ -73,7 +73,7 @@
         <mxCell id="srVSKejguWuxEB_bUG17-25" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" value="dify管理用户端" vertex="1">
           <mxGeometry height="80" width="120" x="2057" y="274" as="geometry" />
         </mxCell>
-        <mxCell id="RsskncbEqKIQpMT9tODd-10" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=74;fontSize=12;" value="192.168.100.1&lt;br&gt;dify 相关服务&lt;br&gt;&lt;div&gt;4C8G&lt;/div&gt;" vertex="1">
+        <mxCell id="RsskncbEqKIQpMT9tODd-10" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=74;fontSize=12;" value="192.168.100.2&lt;br&gt;dify 相关服务&lt;br&gt;&lt;div&gt;4C8G&lt;/div&gt;" vertex="1">
           <mxGeometry height="442" width="376" x="1856" y="643" as="geometry" />
         </mxCell>
         <mxCell id="RsskncbEqKIQpMT9tODd-11" parent="RsskncbEqKIQpMT9tODd-10" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" value="nginx" vertex="1">
@@ -94,7 +94,7 @@
         <mxCell id="RsskncbEqKIQpMT9tODd-19" parent="RsskncbEqKIQpMT9tODd-10" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" value="run_python_code&lt;br&gt;mcp服务&lt;br&gt;（专门运行 Python 脚本）" vertex="1">
           <mxGeometry height="46" width="164" x="21.5" y="288" as="geometry" />
         </mxCell>
-        <mxCell id="RsskncbEqKIQpMT9tODd-20" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=74;fontSize=12;" value="192.168.100.1&lt;br&gt;dify 相关服务&lt;br&gt;&lt;div&gt;8C16G&lt;/div&gt;" vertex="1">
+        <mxCell id="RsskncbEqKIQpMT9tODd-20" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=74;fontSize=12;" value="192.168.100.3&lt;br&gt;dify 相关服务&lt;br&gt;&lt;div&gt;8C16G&lt;/div&gt;" vertex="1">
           <mxGeometry height="442" width="376" x="1406" y="643" as="geometry" />
         </mxCell>
         <mxCell id="RsskncbEqKIQpMT9tODd-22" parent="RsskncbEqKIQpMT9tODd-20" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" value="worker-1&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;api定时任务服务（定时任务，和api同一个镜像）&lt;/span&gt;" vertex="1">
@@ -118,7 +118,7 @@
         <mxCell id="RsskncbEqKIQpMT9tODd-32" parent="RsskncbEqKIQpMT9tODd-20" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" value="worker-5&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;api定时任务服务（定时任务，和api同一个镜像）&lt;/span&gt;" vertex="1">
           <mxGeometry height="46" width="155.5" x="19" y="363" as="geometry" />
         </mxCell>
-        <mxCell id="RsskncbEqKIQpMT9tODd-36" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=74;fontSize=12;" value="192.168.100.1&lt;br&gt;&lt;div&gt;4C8G&lt;br&gt;硬盘资源1T&lt;/div&gt;" vertex="1">
+        <mxCell id="RsskncbEqKIQpMT9tODd-36" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=74;fontSize=12;" value="192.168.100.4&lt;br&gt;&lt;div&gt;4C8G&lt;br&gt;硬盘资源1T&lt;/div&gt;" vertex="1">
           <mxGeometry height="234" width="209" x="1715.5" y="1179" as="geometry" />
         </mxCell>
         <mxCell id="RsskncbEqKIQpMT9tODd-43" parent="RsskncbEqKIQpMT9tODd-36" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontSize=12;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;weaviate&lt;br&gt;向量数据库&lt;/span&gt;" vertex="1">
